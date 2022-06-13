@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: antiquewhite;
+    color:rgba(0, 0, 0, 0.904);
+
+    font-size: 16px;
+    font-weight: normal;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(95, 93, 93);
+}
+
+.avatar {
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgba(145, 141, 141, 0.904);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info h2 {
+    font-size: 18px;
+} 
+
+.info p {
+    color:rgb(138, 138, 135);
+    margin: O;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+ 
+.bg-green {
+    background-color: rgb(167, 241, 153);
+}
+
+.bg-yellow {
+    background-color: rgb(229, 231, 111);
+}
+
+.bg-red {
+    background-color: rgb(252, 188, 188);
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.hobby {
+    padding: 0 20px;
+}
+
+.hobby li {
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 5px;
+}
+
+.courses {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.courses-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.courses-list li {
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: #ccc;
+    font-family: inherit;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
